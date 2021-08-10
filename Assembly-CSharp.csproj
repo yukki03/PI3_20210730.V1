@@ -57,6 +57,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\MenuInicial.cs" />
+    <Compile Include="Assets\Scripts\JogoLvl1.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

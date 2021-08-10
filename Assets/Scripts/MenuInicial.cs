@@ -25,7 +25,7 @@ public class MenuInicial : MonoBehaviour
     // Abre a cena Jogo quando apertarmos o botão Jogar
     public void abreJogo()
     {
-        UnityEngine.SceneManagement.SceneManager.LoadScene("");
+        UnityEngine.SceneManagement.SceneManager.LoadScene("Jogolvl1");
     }
 
     // Fecha o build ao apertarmos o botão Sair
