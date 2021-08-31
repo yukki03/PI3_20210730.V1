@@ -16,19 +16,19 @@ public class MenuInicial : MonoBehaviour
         
     }
 
-    // Abre a cena Loja quando apertarmos o botão Loja
+    // Abre a cena Loja quando apertarmos o botï¿½o Loja
     public void abreLoja() 
     {
         UnityEngine.SceneManagement.SceneManager.LoadScene("Loja");
     }
 
-    // Abre a cena Jogo quando apertarmos o botão Jogar
+    // Abre a cena Jogo quando apertarmos o botï¿½o Jogar
     public void abreJogo()
     {
-        UnityEngine.SceneManagement.SceneManager.LoadScene("Jogolvl1");
+        UnityEngine.SceneManagement.SceneManager.LoadScene("Jogolvl2");
     }
 
-    // Fecha o build ao apertarmos o botão Sair
+    // Fecha o build ao apertarmos o botï¿½o Sair
     public void fechaMenuInicial()
     {
         Application.Quit();
