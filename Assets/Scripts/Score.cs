@@ -19,9 +19,9 @@ public class Score : MonoBehaviour
         scoreText.text = score.ToString();
     }
 
-    private void OnCollisionEnter(Collision other) 
+    private void OnCollisionEnter(Collision colider) 
     {
-        if (gameObject.CompareTag("LixeiroVid"))
+        if (colider.gameObject.CompareTag("LixeiroVid"))
         {
             score ++;
         }
