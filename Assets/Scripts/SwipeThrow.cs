@@ -36,7 +36,7 @@ public class SwipeThrow : MonoBehaviour
            rb.isKinematic = false;
            rb.AddForce (- direction.x * throwForceInXandY, - direction.y * throwForceInXandY, throwForceInZ / timeInterval);
 
-           Destroy(gameObject, 3f);
+           Destroy(gameObject, 6f);
        }
    }
 }

@@ -37,11 +37,11 @@
   </PropertyGroup>
   <ItemGroup>
      <Compile Include="Assets\Scripts\JogoLvl1.cs" />
+     <Compile Include="Assets\Scripts\SwipeThrow.cs" />
      <Compile Include="Assets\Scripts\Destroy.cs" />
      <Compile Include="Assets\Scripts\Score.cs" />
      <Compile Include="Assets\Scripts\MenuInicial.cs" />
      <Compile Include="Assets\Scripts\MouseDrag.cs" />
-     <Compile Include="Assets\Scripts\SwipeThrow.cs" />
     <Reference Include="UnityEngine">
         <HintPath>E:/UNITY/2020.2.5f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>
