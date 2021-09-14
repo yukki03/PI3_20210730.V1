@@ -34,4 +34,9 @@ public class MenuInicial : MonoBehaviour
         Application.Quit();
     }
 
+    public void abreCredito(){
+
+        UnityEngine.SceneManagement.SceneManager.LoadScene("Creditos");
+    }
+
 }
